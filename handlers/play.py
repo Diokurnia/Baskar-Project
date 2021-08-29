@@ -635,7 +635,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton("Menu", callback_data="menu"),
                     InlineKeyboardButton("Close", callback_data="cls")
-                ],
+                ]
             ]
         )
             requested_by = message.from_user.first_name
