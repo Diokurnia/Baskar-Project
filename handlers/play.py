@@ -507,11 +507,11 @@ async def play(_, message: Message):
                 f"❎ **lagu dengan durasi lebih dari** `{DURATION_LIMIT}` **menit tidak dapat diputar!**"
             )
         keyboard = InlineKeyboardMarkup(
-            [
+[
                 [
-                    InlineKeyboardButton("Menu", callback_data="menu"),
-                    InlineKeyboardButton("Close", callback_data="cls")
-                ]
+                    InlineKeyboardButton("🖱️ ᴍᴇɴᴜ", callback_data="menu"),
+                    InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="cls")
+                ],
             ]
         )
         file_name = get_file_name(audio)
@@ -552,11 +552,11 @@ async def play(_, message: Message):
         dlurl=url
         dlurl=dlurl.replace("youtube","youtubepp")
         keyboard = InlineKeyboardMarkup(
-            [
+[
                 [
-                    InlineKeyboardButton("Menu", callback_data="menu"),
-                    InlineKeyboardButton("Close", callback_data="cls")
-                ]
+                    InlineKeyboardButton("🖱️ ᴍᴇɴᴜ", callback_data="menu"),
+                    InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="cls")
+                ],
             ]
         )
         requested_by = message.from_user.first_name
@@ -732,11 +732,11 @@ async def lol_cb(b, cb):
     dlurl=url
     dlurl=dlurl.replace("youtube","youtubepp")
     keyboard = InlineKeyboardMarkup(
-            [
+[
                 [
-                    InlineKeyboardButton("Menu", callback_data="menu"),
-                    InlineKeyboardButton("Close", callback_data="cls")
-                ]
+                    InlineKeyboardButton("🖱️ ᴍᴇɴᴜ", callback_data="menu"),
+                    InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="cls")
+                ],
             ]
         )
     requested_by = useer_name
@@ -876,11 +876,11 @@ async def ytplay(_, message: Message):
     dlurl=url
     dlurl=dlurl.replace("youtube","youtubepp")
     keyboard = InlineKeyboardMarkup(
-            [
+[
                 [
-                    InlineKeyboardButton("Menu", callback_data="menu"),
-                    InlineKeyboardButton("Close", callback_data="cls")
-                ]
+                    InlineKeyboardButton("🖱️ ᴍᴇɴᴜ", callback_data="menu"),
+                    InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="cls")
+                ],
             ]
         )
     requested_by = message.from_user.first_name
