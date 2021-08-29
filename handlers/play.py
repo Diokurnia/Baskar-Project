@@ -554,10 +554,9 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📚 Daftar putar", "playlist"),
-                    InlineKeyboardButton("🕹️ Menu", callback_data="menu"),
+                    InlineKeyboardButton("Menu", callback_data="menu"),
+                    InlineKeyboardButton("Close", callback_data="cls")
                 ],
-                [InlineKeyboardButton(text="🗑 Tutup", callback_data="cls")],
             ]
         )
         requested_by = message.from_user.first_name
@@ -634,10 +633,9 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📚 Daftar putar", "playlist"),
-                    InlineKeyboardButton("🕹️ Menu", callback_data="menu"),
+                    InlineKeyboardButton("Menu", callback_data="menu"),
+                    InlineKeyboardButton("Close", callback_data="cls")
                 ],
-                [InlineKeyboardButton(text="🗑 Tutup", callback_data="cls")],
             ]
         )
             requested_by = message.from_user.first_name
