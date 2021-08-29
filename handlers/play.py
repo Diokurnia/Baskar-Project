@@ -509,10 +509,9 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📚 Daftar putar", "playlist"),
-                    InlineKeyboardButton("🕹️ Menu", callback_data="menu"),
+                    InlineKeyboardButton("Menu", callback_data="menu"),
+                    InlineKeyboardButton("Close", callback_data="cls")
                 ],
-                [InlineKeyboardButton(text="🗑 Tutup", callback_data="cls")],
             ]
         )
         file_name = get_file_name(audio)
@@ -737,10 +736,9 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📚 Daftar putar", "playlist"),
-                    InlineKeyboardButton("🕹️ Menu", callback_data="menu"),
+                    InlineKeyboardButton("Menu", callback_data="menu"),
+                    InlineKeyboardButton("Close", callback_data="cls")
                 ],
-                [InlineKeyboardButton(text="🗑 Tutup", callback_data="cls")],
             ]
         )
     requested_by = useer_name
@@ -882,10 +880,9 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📚 Daftar putar", "playlist"),
-                    InlineKeyboardButton("🕹️ Menu", callback_data="menu"),
+                    InlineKeyboardButton("Menu", callback_data="menu"),
+                    InlineKeyboardButton("Close", callback_data="cls")
                 ],
-                [InlineKeyboardButton(text="🗑 Tutup", callback_data="cls")],
             ]
         )
     requested_by = message.from_user.first_name
