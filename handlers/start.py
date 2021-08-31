@@ -51,7 +51,7 @@ Dikelola Oleh [𝗕𝗔𝗦𝗞𝗔𝗥](https://t.me/baskarnie) ⊨〛
                         "❓ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ", callback_data="cbhowtouse"
                 ],[
                     InlineKeyboardButton(
-                        "⚙️ ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}")
+                        "⚙️ ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"
                     ),
                     InlineKeyboardButton(
                         "👥 ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
