@@ -33,27 +33,34 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>🕊️ **Hallo, saya {message.from_user.mention}** \n
-💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Adalah sebuah bot yang dirancang untuk memutar musik di obrola suara !**
-💡 **Untuk melihat beberapa perintah dalam penggunaan bot bisa klik » 📚 Commands !**
-❓ **Atau info lebih lanjut bisa mengetik /help**
+Bot Music Pro Telegram yang Kuat untuk Mengelola Grup Anda.
+━━━━━━━━━━━━━━━━━━━━━━
+Dikelola Oleh [𝗕𝗔𝗦𝗞𝗔𝗥](https://t.me/baskarnie) ⊨〛
+
+📮 Tambahkan saya ke group mu dan jadikan saya admin!! 🪧
+━━━━━━━━━━━━━━━━━━━━━━
+📝 Klik /help untuk melihat fitur fitur lebih dari bot ini
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
-                [
-                    InlineKeyboardButton(
-                        "➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "❓ How to use Me", callback_data="cbhowtouse"
+                        "📝 ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘᴍᴜ 📝", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                     ),
                     InlineKeyboardButton(
-                        "✨ Donate", url=f"https://t.me/{OWNER_NAME}")
+                        "❓ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ", callback_data="cbhowtouse"
                 ],[
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "⚙️ ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}")
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "👥 ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
+                ],[
+                    InlineKeyboardButton(
+                        "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    ),
+                    InlineKeyboardButton(
+                        "🛠️ ɢɪᴛʜᴜʙ", url=f"https://github.com/Diokurnia/Baskar-Project"
                     )
                 ]
             ]
