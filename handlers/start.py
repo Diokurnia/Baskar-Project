@@ -45,7 +45,7 @@ Dikelola Oleh [𝗕𝗔𝗦𝗞𝗔𝗥](https://t.me/baskarnie) ⊨〛
             [ 
                 ],[
                     InlineKeyboardButton(
-                        "📝 ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘᴍᴜ 📝", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "📝 ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘᴍᴜ 📝", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
                     ),
                     InlineKeyboardButton(
                         "❓ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ", callback_data="cbhowtouse")
