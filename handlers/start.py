@@ -48,13 +48,13 @@ Dikelola Oleh [𝗕𝗔𝗦𝗞𝗔𝗥](https://t.me/baskarnie) ⊨〛
                         "📝 ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘᴍᴜ 📝", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                     ),
                     InlineKeyboardButton(
-                        "❓ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ", callback_data="cbhowtouse"
+                        "❓ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ", callback_data="cbhowtouse")
                 ],[
                     InlineKeyboardButton(
                         "⚙️ ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"
                     ),
                     InlineKeyboardButton(
-                        "👥 ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "👥 ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}")
                 ],[
                     InlineKeyboardButton(
                         "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
