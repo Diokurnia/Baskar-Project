@@ -1,7 +1,7 @@
-<h2 align="centre">☄️ Kennedy X Music ☄️</h2>
+<h2 align="centre">☄️ Baskar-Project ☄️</h2>
 
 ### Music bot for playing music on telegram voice chat group.
-<p align="center"><a href="https://t.me/KennedyXRobot"><img src="https://telegra.ph/file/8008bce98aa5c60f9b37a.png" width="300"></a></p>
+<p align="center"><a href="https://t.me/BaskarProject"><img src="https://telegra.ph/file/2389a9efe99c7e4ef2578.jpg" width="300"></a></p>
 
 <h3>Requirements 📝</h3>
 
@@ -12,7 +12,7 @@
 
 🧪 Get STRING_SESSION from here:
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@KennedyProject/Ken-String-Session#main.py)
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@PapiT0-GamingGa/Baskar-String-Session#main.py)
 
 
 ## Commands 🛠
@@ -52,12 +52,12 @@
 ## Heroku Deployment 
 The easy way to host this bot, deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KennedyProject/KennedyXMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Diokurnia/Baskar-Project)
 
 ### Credits ✨
-- [Kennedy](https://github.com/KennedyProject) Developer
+- [Baskar](https://github.com/Diokurnia) Developer
 - [RojSerBest](https://github.com/rojserbest) CallsMusic Developer
 - [Levina](https://github.com/levina-lab) Veez Project
 
 ### Support & Updates ✨
-<a href="https://t.me/kenbotsupport"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/KennedyProject"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/BaskarSupportGroup"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/BaskarProject"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
