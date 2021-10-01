@@ -35,7 +35,7 @@ async def start_(client: Client, message: Message):
         f"""<b>🕊️ Hallo, saya {message.from_user.mention} \n
 Bot Music Pro Telegram yang Kuat untuk Mengelola Grup Anda.
 ━━━━━━━━━━━━━━━━━━━━━━
-Dikelola Oleh [𝗕𝗔𝗦𝗞𝗔𝗥](https://t.me/baskarnie) ⊨〛
+Dikelola Oleh [𝗕𝗔𝗦𝗞𝗔𝗥](https://t.me/xxxbasx) ⊨〛
 
 📮 Tambahkan saya ke group mu dan jadikan saya admin!! 🪧
 ━━━━━━━━━━━━━━━━━━━━━━
